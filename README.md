@@ -19,7 +19,7 @@ Each subfolder typically includes:
 
 | Competition                                                                                                          | Model Deployed                            | Best Score & Metric Used     | Rank    | Notebook                                         |
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------- | ------- | ------------------------------------------------ |
-| [Predicting Road Accident Risk](https://www.kaggle.com/competitions/playground-series-s5e10/overview)                                          | Classic binary classification starter | **0.00569 RMSE**       | Top 5%  | [Notebook](./titanic/notebooks/final.ipynb)      |
+| [Predicting Road Accident Risk](https://www.kaggle.com/competitions/playground-series-s5e10/overview)                                          | Classic binary classification starter | **0.00569 [RMSE](https://c3.ai/glossary/data-science/root-mean-square-error-rmse/)**       | Top 5%  | [Notebook](./titanic/notebooks/final.ipynb)      |
 | [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) | Predict house prices                  | **0.118 RMSLE** | Top 10% | [Notebook](./house-prices/notebooks/final.ipynb) |
 | [Tabular Playground Series – Feb 2022](https://www.kaggle.com/competitions/tabular-playground-series-feb-2022)       | Tabular regression challenge          | **0.842 RMSE**  | Top 8%  | [Notebook](./tps-feb-2022/notebooks/final.ipynb) |
 
