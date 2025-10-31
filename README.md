@@ -6,11 +6,13 @@ This repository showcases my code, experiments, and final scores from various ma
 ---
 
 ## 📂 Repository Structure
-Each subfolder typically includes:
+My workflow typically includes:
 
-* 🧠 **EDA & feature engineering** notebooks
-* ⚙️ **Model selection training scripts** (LightGBM, XGBoost, deep learning, etc.)
-* ⚙️ **Model parameter tuning** (GridSearchCV, RandomSearchCV, etc.)
+* ⚙️ **EDA & feature engineering** 
+* ⚙️ **Data Preprocessing (Imputation of missing values, StandardScaler for numerical variables, Onehotencoding for Categorical Variables)**
+* ⚙️ **Model selection training scripts** (LightGBM, XGBoost, deep learning, etc.)**
+* ⚙️ **Model hyperparameter tuning** (GridSearchCV, RandomSearchCV, etc.)**
+* (but sometimes a generic model offers greater accuracy for unseen data!) ![Model Complexity vs Accuracy](/img1.png)
 * 📊 **Validation results & submissions & final score (+ metric used)**
 
 ---
