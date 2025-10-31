@@ -3,7 +3,7 @@
 Welcome to my collection of **Kaggle competition projects**!
 
 
-This repository showcases my code, experiments, and final scores from various machine learning challenges I’ve participated in. 
+This repository showcases my code notebooks, models and final scores from various machine learning challenges I’ve participated in. 
 
 Each folder corresponds to a specific competition.
 
