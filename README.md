@@ -1,4 +1,4 @@
-# 🏆 Kaggle Machine Learning Competitions Folder 
+# 👩‍💻📚 Machine Learning Competition - Algorithms Code
 
 Welcome to my collection of **Kaggle competition projects**!
 
@@ -60,9 +60,8 @@ My workflow typically includes:
 
 This repository serves as:
 
-* A **learning diary** of my Kaggle journey
-* A **reference library** for common ML pipelines for reproducibility
-* A **showcase** of my applied ML skills
+* A **learning diary** of my Kaggle journey for common ML pipelines
+* A **showcase** of my applied ML skills for reproducibility
 
 ---
 
