@@ -29,18 +29,7 @@ My workflow typically includes:
 | [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) | Predict house prices                  | **0.118 RMSLE** | Top 10% | [Notebook](./house-prices/notebooks/final.ipynb) |
 | [Tabular Playground Series – Feb 2022](https://www.kaggle.com/competitions/tabular-playground-series-feb-2022)       | Tabular regression challenge          | **0.842 RMSE**  | Top 8%  | [Notebook](./tps-feb-2022/notebooks/final.ipynb) |
 
-*(Add your actual scores and links as you go!)*
-
----
-
-## 🧰 Tech Stack
-
-* Python 🐍
-* Pandas, NumPy, Scikit-learn
-* LightGBM, XGBoost, CatBoost
-* PyTorch / TensorFlow (for deep learning comps)
-* Optuna / Hyperopt (for tuning)
-* Matplotlib, Seaborn, Plotly (for visualization)
+*(I'm adding my actual scores and links as I go!)*
 
 ---
 
@@ -60,13 +49,9 @@ If you’d like to see more of my work or discuss ML approaches, feel free to re
 
 * 🧑‍💻 [Portfolio Website](https://jayelle0609.github.io/jialing/)
 * 🧑‍💻 [Tableau Viz](https://public.tableau.com/app/profile/jialingteo/vizzes)
-* ✉️ [jayelle@gmail.com](mailto:jayelleteo@gmail.com)
+* ✉️ [jayelleteo@gmail.com](mailto:jayelleteo@gmail.com)
 * 🐦 [Resume](https://drive.google.com/file/d/1Rq7kx1UOF96GE26drsnB5flgt6iCxdYP/view?usp=sharing) | 💼 [LinkedIn](https://linkedin.com/in/jialingteo)
 
 ---
 
 ⭐ **Thank you for viewing my work!**
-I appreciate you and your time!
----
-
-Would you like me to make a **version with badges** (e.g., Python version, Kaggle profile, license) for a more professional GitHub look?
