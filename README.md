@@ -8,16 +8,39 @@ This repository showcases my code, experiments, and final scores from various ma
 Each folder corresponds to a specific competition.
 
 ---
-
 ## 📂 Repository Structure
 My workflow typically includes:
 
-* ⚙️ **EDA & feature engineering** 
-* ⚙️ **Data Preprocessing (Imputation of missing values, StandardScaler for numerical variables, Onehotencoding for Categorical Variables)**
-* ⚙️ **Model selection based on evaluation metrics, after train-test-split** (LightGBM, XGBoost, trees, regression etc.)**
-* ⚙️ **Model hyperparameter tuning** (GridSearchCV, RandomSearchCV, etc.)**
-* (but sometimes a generic model offers greater accuracy for unseen data!) ![Model Complexity vs Accuracy](/img1.png)
-* 📊 **Validation results after hyperparameter tuning, submissions & final score (+ metric used)**
+1. EDA  
+   - Visualizations with plotly, matplotlib, seaborn to detect outliers or unreasonable values (ex. age is 200)
+ 
+2. Feature Engineering / Dimension Reduction / Removing influence of unimportant features  
+   - Create new features if necessary (to reduce dimensionality!)  
+   - Feature importance selection with L1 Lasso Linear Regression or Tree Based Models.  
+     - Lasso : These select the most important features, shrink coefficients of unimportant features with a penalty to zero.  
+     - Tree : Rank feature importance and select top ones only (tree)  
+   - Dimensionality reduction methods (PCA, t-SNE, LDA if there are too many variables)  
+     - These create new features by combining old ones.  
+
+3. Data Preprocessing  
+   - Imputation of missing values  
+   - StandardScaler for numerical variables  
+   - Onehotencoding for Categorical Variables  
+   - Pipelines : ColumnTransformer (preprocessor for cat and num variables)  
+
+4. Model selection based on evaluation metrics  
+
+5. Model hyperparameter tuning  
+   - GridSearchCV, RandomSearchCV, etc.  
+
+6. Validation results after hyperparameter tuning, submissions & final score (+ metric used)  
+   - Sometimes a generic model offers greater accuracy for unseen data!  
+
+<p align="right">
+  <img src="./img1.png" alt="Model Simplicity vs Complexity" width="400">
+</p>
+
+
 
 ---
 
