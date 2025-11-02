@@ -45,10 +45,10 @@ My workflow typically includes:
 ---
 ## 📈 Competitions & Scores
 
-| Competition                                                                                                          | Model Deployed                            | Best Score & Metric Used     | Rank    | Notebook                                         |
+| Competition                                                                                                          | Model Deployed                            | Best Score & Metric Used     | Higher/Lower the Better the Prediction?    | Notebook                                         |
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------- | ------- | ------------------------------------------------ |
-| [Predicting Road Accident Risk](https://www.kaggle.com/competitions/playground-series-s5e10/overview)                                          | XGBRegressor | **0.00569 [RMSE](https://www.geeksforgeeks.org/r-language/root-mean-square-error-in-r-programming/)**       | Top 5%  | [Notebook](./Predicting_Road_Accident_Risk/Predicting_Road_Accident_Risk.ipynb)      |
-| [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) | Predict house prices                  | **0.118 RMSLE** | Top 10% | [Notebook](./Predicting_Road_Accident_Risk/Predicting_Road_Accident_Risk.ipynb) |
+| [Predicting Road Accident Risk](https://www.kaggle.com/competitions/playground-series-s5e10/overview)                                          | XGBRegressor | **0.00569 [RMSE](https://www.geeksforgeeks.org/r-language/root-mean-square-error-in-r-programming/)**       | Lower  | [Notebook](./Predicting_Road_Accident_Risk/Predicting_Road_Accident_Risk.ipynb)      |
+| [Predicting Loan Payback](https://www.kaggle.com/competitions/playground-series-s5e11/overview) | Predict probability of loan repayment                 | **0.92012 ROC-AUC** | Higher | [Notebook](./Predicting_Loan_Repayment/Predicting_Loan_Repayment.ipynb) |
 | [Tabular Playground Series – Feb 2022](https://www.kaggle.com/competitions/tabular-playground-series-feb-2022)       | Tabular regression challenge          | **0.842 RMSE**  | Top 8%  | [Notebook](./tps-feb-2022/notebooks/final.ipynb) |
 
 *(I'm adding my actual scores and links as I go!)*
