@@ -2,7 +2,7 @@
   <img src="img1.png" alt="header" width="600">
 </p>
 
-# Loan Default Prediction with XGBoost
+# Loan Default Prediction with XGBoost Classifier 
 
 ## 📌 Project Overview
 
