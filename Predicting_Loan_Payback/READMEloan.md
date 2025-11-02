@@ -3,12 +3,11 @@
 </p>
 
 # Loan Default Prediction with XGBoost Classifier 
+### Final Model Accuracy Score = 0.92142 (ROC-AUC)
 
 ## 📌 Project Overview
 
 This project predicts whether a borrower will pay back a loan based on historical loan and borrower data. We use **XGBoost Classifer**, a high-performance gradient boosting algorithm, to train the model and generate predictions.
-
----
 
 ## 🗂️ Dataset
 
