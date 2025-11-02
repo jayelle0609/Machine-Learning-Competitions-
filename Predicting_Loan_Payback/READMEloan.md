@@ -1,31 +1,40 @@
-[Loan Default Prediction with XGBoost Classifier](./img1.png)
----
+<p align="center">
+  <img src="img1.png" alt="header" width="600">
+</p>
 
 # Loan Default Prediction with XGBoost
 
 ## 📌 Project Overview
 
-This project predicts whether a borrower will pay back a loan based on historical loan and borrower data. We use **XGBoost**, a high-performance gradient boosting algorithm, to train the model and generate predictions.
+This project predicts whether a borrower will pay back a loan based on historical loan and borrower data. We use **XGBoost Classifer**, a high-performance gradient boosting algorithm, to train the model and generate predictions.
 
 ---
 
 ## 🗂️ Dataset
 
 * **Training data**: Includes features such as income, credit score, loan amount, employment status, and other borrower-related attributes, along with the target variable `loan_paid_back`.
-* **Test data**: Contains the same features but without the target variable.
-* **ID column**: For test data, the IDs start at `593994`.
 
----
 
 ## 🛠️ Data Preprocessing
 
 * **Numerical features**: Imputed missing values with median and scaled using `StandardScaler`.
 * **Categorical features**: Imputed missing values with most frequent value and one-hot encoded.
 * **Pipeline**: Preprocessing and XGBoost model combined into a `Pipeline` for reproducibility and cleaner workflow.
+* **Classification Models tested** : Results below are scores on validation set.
+  
+
+| Model              | F1 Score | ROC-AUC | TN    | FP   | FN    | TP    |
+| ------------------ | -------- | ------- | ----- | ---- | ----- | ----- |
+| RandomForest       | 0.9406   | 0.9043  | 13901 | 9999 | 1763  | 93136 |
+| LogisticRegression | 0.9107   | 0.9107  | 18381 | 5519 | 10944 | 83955 |
+| GradientBoosting   | 0.9418   | 0.9149  | 14162 | 9738 | 1769  | 93130 |
+| XGBoost            | **0.9423**   | **0.9196**  | 14441 | 9459 | 1928  | 92971 |
+
+<img width="835" height="518" alt="image" src="https://github.com/user-attachments/assets/4adf90fc-0f85-4502-a003-a40552ae23e9" />
 
 ---
 
-## ⚙️ Model
+## ⚙️ Model Hyperparameter tuning
 
 * **Algorithm**: XGBoost Classifier (`XGBClassifier`) with hyperparameter tuning using `RandomizedSearchCV`.
 * **Hyperparameters tuned**:
@@ -41,55 +50,22 @@ This project predicts whether a borrower will pay back a loan based on historica
  'colsample_bytree': 0.8}
 ```
 
-**Validation ROC-AUC**: 0.921
+**Validation ROC-AUC**: 0.92093
 
 ---
 
 ## 📊 Feature Importance
 
-* Plotted top 20 most important features.
-* Features are colored based on importance intensity using Matplotlib colormaps (`viridis`, `plasma`, etc.).
-* Feature importance helps understand which features contribute most to predictions.
+* Plotted top 10 most important features, contributing to prediction.
+<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/bd7d997a-2d45-4415-9e2d-9ce5862de4ef" />
 
----
-
-## 💻 Usage
-
-1. **Train the model**
-
-```python
-random_search.fit(X_train, y_train)
-best_model = random_search.best_estimator_
-```
-
-2. **Predict on test set**
-
-```python
-y_test_proba = best_model.predict_proba(test)[:, 1]
-submission = pd.DataFrame({
-    'id': range(593994, 593994 + test.shape[0]),
-    'loan_paid_back': y_test_proba
-})
-submission.to_csv('xgboost_test_predictions.csv', index=False)
-```
 
 ---
 
 ## 📈 Results
 
-* Model performs well on validation set with ROC-AUC ~0.92.
-* Top features influencing predictions include credit score, debt-to-income ratio, annual income, and loan amount.
+* Model performs well on test set, with a final score of **0.92142**.
+* Hyperparameter tuning took 30 mins for over 500k rows of data.
+<img width="721" height="114" alt="Screenshot 2025-11-02 at 9 08 33 AM" src="https://github.com/user-attachments/assets/c7f9afbe-9d3f-446e-96c6-f55e59408e5a" />
 
----
 
-## ⚡ Notes
-
-* RandomizedSearchCV was used due to the large dataset (~500k rows), which speeds up hyperparameter tuning compared to GridSearchCV.
-* Early stopping and proper CV folds were considered to prevent overfitting.
-* Submission CSV includes **probability of paying back loan** as required.
-
----
-
-I can also make a **shorter, more “GitHub-friendly” version** with badges, installation instructions, and quick usage snippet if you want.
-
-Do you want me to do that version too?
