@@ -41,6 +41,7 @@ best_params = {
     'model__gamma': 1,
     'model__colsample_bytree': 1.0
 }
+```
 
 ## Why XGBoost Was Selected
 
