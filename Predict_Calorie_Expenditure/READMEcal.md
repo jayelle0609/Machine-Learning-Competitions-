@@ -4,6 +4,7 @@ This project explores regression models for predicting exercise calorie expendit
 
 ---
 | **🚀 Final Model RMSLE:** 0.05903 |
+
 ---
 
 ## Initial CV Results (on Sample)
