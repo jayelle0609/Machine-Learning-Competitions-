@@ -1,5 +1,5 @@
 ![exercise](img.png)
-# Calorie Expenditure Predictor during Exercise with Regression Models
+# Calorie Expenditure Predictor with Regression Models
 
 This project explores regression models for predicting exercise calorie expenditure based on given character demographics.
 
