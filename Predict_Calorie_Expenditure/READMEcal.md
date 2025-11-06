@@ -29,6 +29,19 @@ This project explores regression models for predicting exercise calorie expendit
 | Before Hyperparameter Tuning | 3.73            | 2.29           | 1.00                |
 | After Hyperparameter Tuning  | 3.59            | 2.15           | 1.00                |
 
+```python
+best_params = {
+    'model__subsample': 1.0,
+    'model__reg_lambda': 2,
+    'model__reg_alpha': 1,
+    'model__n_estimators': 800,
+    'model__min_child_weight': 5,
+    'model__max_depth': 9,
+    'model__learning_rate': 0.01,
+    'model__gamma': 1,
+    'model__colsample_bytree': 1.0
+}
+
 ## Why XGBoost Was Selected
 
 * **High predictive accuracy**: Outperformed all other models in initial CV and after tuning.
