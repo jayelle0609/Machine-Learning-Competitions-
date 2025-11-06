@@ -49,7 +49,7 @@ My workflow typically includes:
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------- | ------- | ------------------------------------------------ |
 | [Predicting Road Accident Risk](https://www.kaggle.com/competitions/playground-series-s5e10/overview)                                          | XGBRegressor | **0.00569 [RMSE](https://www.geeksforgeeks.org/r-language/root-mean-square-error-in-r-programming/)**       | Lower  | [Notebook](./Predicting_Road_Accident_Risk/Predicting_Road_Accident_Risk.ipynb)      |
 | [Predicting Loan Payback](https://www.kaggle.com/competitions/playground-series-s5e11/overview) | Predict probability of loan repayment                 | **0.92142 [ROC-AUC](https://www.geeksforgeeks.org/machine-learning/auc-roc-curve/)** | Higher | [Notebook](./Predicting_Loan_Repayment/Predicting_Loan_Repayment.ipynb) |
-| [Tabular Playground Series – Feb 2022](https://www.kaggle.com/competitions/tabular-playground-series-feb-2022)       | Tabular regression challenge          | **0.842 RMSE**  | Top 8%  | [Notebook](./tps-feb-2022/notebooks/final.ipynb) |
+| [Predicting Calorie Expenditure](https://www.kaggle.com/competitions/playground-series-s5e5/overview)       | XGB Regressor          | **0.06093 RMSLE**  | Lower  | [Notebook](./Predict_Calorie_Expenditure/predict.ipynb) |
 
 *(I'm adding my actual scores and links as I go!)*
 
