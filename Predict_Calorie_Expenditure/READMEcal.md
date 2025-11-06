@@ -3,7 +3,8 @@
 This project explores regression models for predicting exercise calorie expenditure based on given character demographics.
 
 ---
-| **🚀 Final Model RMSLE:** 0.05903 |
+
+**🚀 Final Model RMSLE:** 0.05903 
 
 ---
 
