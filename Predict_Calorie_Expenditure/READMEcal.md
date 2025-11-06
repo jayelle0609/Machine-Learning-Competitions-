@@ -1,6 +1,10 @@
 # Model Comparison and Selection
 
-This project explores regression models for predicting numeric outcomes. Multiple models were evaluated using **cross-validation (CV)** to compare performance before selecting the final model.
+This project explores regression models for predicting exercise calorie expenditure based on given character demographics.
+
+---
+| **🚀 Final Model RMSLE:** 0.05903 |
+---
 
 ## Initial CV Results (on Sample)
 
