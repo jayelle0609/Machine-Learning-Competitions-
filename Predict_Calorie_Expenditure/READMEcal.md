@@ -22,7 +22,7 @@ This project explores regression models for predicting exercise calorie expendit
 
 > 5-fold cross-validation was used to ensure reliable performance estimates.
 
-## Final Model Performance
+## Final Model Performance : XGBoost Regressor
 
 | Model                        | Validation RMSE | Validation MAE | Validation R2 Score |
 | ---------------------------- | --------------- | -------------- | ------------------- |
