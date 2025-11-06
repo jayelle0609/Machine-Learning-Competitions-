@@ -1,3 +1,4 @@
+![exercise](img.png)
 # Model Comparison and Selection
 
 This project explores regression models for predicting exercise calorie expenditure based on given character demographics.
