@@ -59,7 +59,7 @@ My workflow typically includes:
 
 This repository serves as:
 
-* A **learning diary** of my Kaggle journey for common ML pipelines
+* A **learning diary** of my Kaggle journey for [common ML pipelines](https://github.com/jayelle0609/ML-Pipelines/tree/main)
 * A **showcase** of my applied ML skills for reproducibility
 
 ---
